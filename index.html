@@ -3,6 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Metaetiqueta "Description" -->
+        <meta name="description" content="Fábrica de cerveza artesanal Ludus">
+        <!-- Keywords -->
+        <meta name="keywords" content="cerveza, lata, bar, fábrica, artesanal, argentina">
         <!-- Icono del sitio web -->
         <link rel="shortcut icon" href="./img/ico.ico" type="image/x-icon">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,13 +17,16 @@
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         <!-- Link Bootstrap CSS -->
         <link rel="stylesheet" href="./css/bootstrap.css">
+        <!-- AOS -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <!-- Link CSS -->
         <link rel="stylesheet" href="./css/style.css">
         <!-- Título de la página -->
-        <title>Inicio</title>
+        <title>Ludus Cervecería</title>
     </head>
 <body>
     <header>
+      <!-- Navbar -->
         <nav class="navbar navbar-expand-md bg-body-tertiary py-0">
             <div class="container-fluid navbarludus">
                 <a href="./index.html"><img src="./img/logo.png" alt="ludus"></a>
@@ -49,21 +56,27 @@
           </nav>
     </header>
     <main>
+    <!-- Inicio -->
         <section id="mainludus" class="d-flex align-items-center section-bg bg-dark mainludus">
             <div class="container-fluid px-5 bg-dark ">
               <div class="row justify-content-between gy-5 py-5">
                 <div class="col-md-6 col-lg-4 text-end text-lg-start">
-                  <img src="./img/sin fondo.png" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="300">
+                  <img src="./img/sin fondo.png" class="img-fluid" alt="" data-aos="fade-right"
+                  data-aos-offset="300"
+                  data-aos-easing="ease-in-sine"
+                  data-aos-duration="550">
                 </div>
                 <div class="col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center align-items-lg-start textoludusmain">
-                  <h2 data-aos="fade-up">Ludus</h2>
+                  <h1 data-aos="fade-up">Ludus</h1>
                   <p data-aos="fade-up" data-aos-delay="100">Somos una microcervecería nacida a mediados del 2017 en Argentina. Cervezas con sabor complejo y personalidad bien marcada, hechas con pasión y orgullo.</p>
                 </div>
+                <!-- iframe -->
                 <div class="col-md-12 col-lg-4 text-center"><iframe class="shortludus" src="https://www.youtube.com/embed/YJcfPX05guI?autoplay=0&loop=1&playlist=YJcfPX05guI"title="YouTube video player"frameborder="0"allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"allowfullscreen></iframe></div>
               </div>
             </div>
           </section>
     </main>
+    <!-- Footer -->
     <footer>
         <div class="container-fluid bg-black py-4 footerludus">
             <div class="row">
@@ -73,6 +86,13 @@
             </div>
         </div>
     </footer>
+
+    <!-- Scripts -->
     <script src="./js/bootstrap.js"></script>
+    <!--AOS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>

@@ -20,7 +20,6 @@
 
 .mainludus .textoludusmain {
   color: bisque;
-  font-family: "Itim", cursive;
   font-family: "M PLUS 1p", sans-serif;
 }
 .mainludus .mainludusbotones {
@@ -52,9 +51,23 @@
   transform: scale(1.25);
 }
 
+.botonmenu {
+  position: fixed;
+  padding-top: 10px;
+  width: 80px;
+  height: 80px;
+  bottom: 20px;
+  right: 40px;
+  background-color: #8e2033;
+  color: rgb(252, 211, 62);
+  border-radius: 50px;
+  text-align: center;
+  font-size: 40px;
+  z-index: 100;
+}
+
 .redesludus .textoludusmain {
   color: bisque;
-  font-family: "Itim", cursive;
   font-family: "M PLUS 1p", sans-serif;
 }
 .redesludus .mailludus {
@@ -71,6 +84,25 @@
 .redesludus .yt {
   height: 20%;
   width: 20%;
+}
+
+.textoclientes1 .textoclientes2 {
+  color: bisque;
+  font-family: "M PLUS 1p", sans-serif;
+}
+
+.imgclientes {
+  height: 250px;
+  width: 250px;
+}
+
+.contenedorclientes .estilosclientes {
+  background-color: #8e2033;
+  border-radius: 15px;
+}
+.contenedorclientes .estilosclientes img:hover {
+  transition: transform 0.3s;
+  transform: scale(1.125);
 }
 
 .footerludus .footertexto {

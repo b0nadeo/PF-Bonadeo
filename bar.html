@@ -3,6 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Metaetiqueta "Description" -->
+        <meta name="description" content="Vení a conocer nuestro Ludus Bar">
+        <!-- Keywords -->
+        <meta name="keywords" content="cerveza, lata, bar, fábrica, artesanal, argentina">
         <!-- Icono del sitio web -->
         <link rel="shortcut icon" href="./img/ico.ico" type="image/x-icon">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,10 +22,11 @@
         <!-- Link CSS -->
         <link rel="stylesheet" href="./css/style.css">
         <!-- Título de la página -->
-        <title>Bar</title>
+        <title>Bar - Ludus Cervecería</title>
     </head>
 <body>
     <header>
+      <!-- Navbar -->
         <nav class="navbar navbar-expand-md bg-body-tertiary py-0">
             <div class="container-fluid navbarludus">
                 <a href="./index.html"><img src="./img/logo.png" alt="ludus"></a>
@@ -51,73 +56,96 @@
           </nav>
     </header>
 
-    <main>
-      <div class="container-fluid bg-dark redesludus">
-          <div class="row py-5">
-              <div class="col-12 col-md-6 col-lg-6 pt-3">
-                  <h3 class="textoludusmain ps-2"><i class='bx bx-world' ></i> Nuestras redes:</h3>
-                  <div class="col text-center fs-1 py-3">
-                      <a href="https://www.instagram.com/luduscerveza"><img class="ig" src="./img/iglogo.webp" alt="iglogo"></a>
-                      <a href="https://www.facebook.com/LudusCervezaArtesanal"><img class="fb" src="./img/fblogo.webp" alt="fblogo"></a>
-                      <a href="https://www.youtube.com/@luduscervezaartesanal2482"><img class="yt" src="./img/ytlogo.webp" alt=""></a>
-                  </div>
-                  <h3 class="textoludusmain ps-2"><i class='bx bxl-whatsapp' ></i> Whatsapp:</h3>
-                  <h2 class="textoludusmain pt-4 ps-5 pb-5 mailludus">+54 1124627968</h2>
-                  <h3 class="textoludusmain ps-2"><i class='bx bx-envelope'></i> Mail de contacto:</h3>
-                  <h2 class="textoludusmain pt-4 ps-5 mailludus">luduscerveza@gmail.com</h2>
-              </div>
-              <div class="col-12 col-md-6 col-lg-6 pt-3">
-                  <h3 class="textoludusmain">Contacte con nosotros:</h3>
-                  <form class="row g-3 text-light pb-5">
-                      <div class="row g-3">
-                          <div class="col">
-                            <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
-                          </div>
-                          <div class="col">
-                            <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
-                          </div>
-                      </div>
-                      <div class="col-md-12">
-                        <label for="inputEmail4" class="form-label">Mail:</label>
-                        <input type="email" class="form-control" id="inputEmail4">
-                      </div>
-                      <div class="col-12">
-                        <label for="inputAddress" class="form-label">Dirección:</label>
-                        <input type="text" class="form-control" id="inputAddress"">
-                      </div>
-                      <div class="col-12">
-                        <label for="inputAddress2" class="form-label">Código Postal:</label>
-                        <input type="text" class="form-control" id="inputAddress2">
-                      </div>
-                      <div class="col-md-6">
-                        <label for="inputCity" class="form-label">Ciudad:</label>
-                        <input type="text" class="form-control" id="inputCity">
-                      </div>
-                      <div class="col-md-6">
-                        <label for="inputState" class="form-label">Provincia:</label>
-                        <select id="inputState" class="form-select">
-                          <option selected>...</option>
-                          <option>...</option>
-                          <option>Buenos Aires</option>
-                        </select>
-                      </div>
-                      <div class="col-12">
-                        <div class="form-check">
-                          <input class="form-check-input" type="checkbox" id="gridCheck">
-                          <label class="form-check-label" for="gridCheck">
-                            Enviarme correo con promociones!
-                          </label>
-                        </div>
-                      </div>
-                      <div class="col-12">
-                        <button type="submit" class="btn btn-primary">Enviar</button>
-                      </div>
-                  </form>
-              </div>
-          </div>
+    <main class="bg-dark">
+      <!-- Menú Galería -->
+      <section class="container bg-dark">
+       <div class="row pt-5">
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+          <img
+            src="./img/menu1.jpg"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Boat on Calm Water"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="750"
+          />
+      
+          <img
+            src="./img/menu4.jpeg"
+            class="w-100 shadow-1-strong rounded mb-5"
+            alt="Wintry Mountain Landscape"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          />
+        </div>
+      
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <img
+            src="./img/menu5.jpg"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Mountains in the Clouds"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000"
+          />
+      
+          <img
+            src="./img/menu2.jpg"
+            class="w-100 shadow-1-strong rounded mb-5"
+            alt="Boat on Calm Water"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="500"
+          />
+        </div>
+      
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <img
+            src="./img/menu3.jpg"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Waves at Sea"
+            data-aos="fade-down-left"
+            data-aos-duration="1000"
+          />
+      
+          <img
+            src="./img/menu6.jpeg"
+            class="w-100 shadow-1-strong rounded mb-5"
+            alt="Yosemite National Park"
+            data-aos="zoom-in-up"
+            data-aos-duration="1000"
+          />
+        </div>
       </div>
-  </main>
+    </section>
 
+    <section>
+      <div class="row textoclientes1">
+        <div class="col text-center py-4 textoclientes2"><h2>¡Vení a conocernos!</h2></div>
+      </div>
+    </section>
+    <!-- Contacto con el bar -->
+    <section>
+      <div class="row">
+        <div class="col text-center pe-5 pb-4"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5523.496419432381!2d-58.558999108180366!3d-34.596811936642915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7ae4a1e5605%3A0x8cc970702d3c7c93!2sLudus%20Cerveza%20Artesanal!5e0!3m2!1ses!2sar!4v1701296127353!5m2!1ses!2sar" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+        <div class="col redesludus">
+          <h3 class="ps-2 mainludus textoludusmain"><i class='bx bxs-map' ></i> Dirección:</h3>
+                    <h2 class="textoludusmain pt-4 ps-5 pb-5 mailludus">Sudamérica 1301, Santos Lugares</h2>
+                    <h3 class="textoludusmain ps-2"><i class='bx bxs-time' ></i> Días</h3>
+                    <h2 class="textoludusmain pt-4 ps-5 pb-5 mailludus">Viernes y Sábados</h2>
+                    <h3 class="textoludusmain ps-2"><i class='bx bxs-time' ></i> Horarios:</h3>
+                    <h2 class="textoludusmain pt-4 ps-5 pb-5 mailludus">De 19hs a 00hs </h2>
+                    <a class="textoludusmain" target="_blank" href="https://www.instagram.com/ludus.bardefabrica/"><h3 class=" ps-2"><i class='bx bxl-instagram-alt' ></i> Instagram del bar</h3></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Botón a la tienda -->
+    <a href="https://gabriel-azero.wixsite.com/luduscerveza/menu-local" class="botonmenu" target="_blank"> <i class='bx bxs-food-menu'></i></a>
+
+    <!-- Footer -->
     <footer>
         <div class="container-fluid bg-black py-4 footerludus">
             <div class="row">
@@ -127,6 +155,8 @@
             </div>
         </div>
     </footer>
+
+    <!-- Scripts -->
     <script src="./js/bootstrap.js"></script>
     <!--AOS-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

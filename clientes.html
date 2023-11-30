@@ -3,6 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Metaetiqueta "Description" -->
+        <meta name="description" content="Forma parte de la clientela de la fábrica de cerveza artesanal Ludus">
+        <!-- Keywords -->
+        <meta name="keywords" content="cerveza, lata, bar, fábrica, artesanal, argentina">
         <!-- Icono del sitio web -->
         <link rel="shortcut icon" href="./img/ico.ico" type="image/x-icon">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,13 +17,16 @@
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         <!-- Link Bootstrap CSS -->
         <link rel="stylesheet" href="./css/bootstrap.css">
+        <!-- AOS -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <!-- Link CSS -->
         <link rel="stylesheet" href="./css/style.css">
         <!-- Título de la página -->
-        <title>Clientes</title>
+        <title>Clientes - Ludus Cervecería</title>
     </head>
 <body>
     <header>
+      <!-- Navbar -->
         <nav class="navbar navbar-expand-md bg-body-tertiary py-0">
             <div class="container-fluid navbarludus">
                 <a href="./index.html"><img src="./img/logo.png" alt="ludus"></a>
@@ -48,6 +55,56 @@
             </div>
           </nav>
     </header>
+    <main class="bg-dark">
+      <!-- Cards de los clientes -->
+      <section class="textoclientes1">
+        <div class="col-lg-12 conteiner-fluid text-center pt-3 px-3 textoclientes2">
+          <h2>Conseguí nuestros productos en los siguientes locales adheridos:</h2>
+        </div>
+      </section>
+
+      <section class="container text-center">
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mt-5 contenedorclientes">
+            <figure class="figure imgclientes estilosclientes">
+              <a href="https://www.instagram.com/orangebarsanmartin/" target="_blank"><img src="./img/cliente1.png" class="figure-img img-fluid rounded" alt="cliente1"></a>
+            </figure>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mt-5 contenedorclientes">
+            <figure class="figure imgclientes estilosclientes">
+              <a href="https://www.instagram.com/dixon_2703/" target="_blank"><img src="./img/cliente2.png" class="figure-img img-fluid rounded" alt="cliente2"></a>
+            </figure>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mt-5 contenedorclientes">
+            <figure class="figure imgclientes estilosclientes">
+              <a href="https://www.instagram.com/bierstation_/" target="_blank"><img src="./img/cliente3.png" class="figure-img img-fluid rounded" alt="cliente3"></a>
+            </figure>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mt-5 mb-5 contenedorclientes">
+            <figure class="figure imgclientes estilosclientes">
+              <a href="https://www.instagram.com/cicbuenosaires/" target="_blank"><img src="./img/cliente4.png" class="figure-img img-fluid rounded" alt="cliente4"></a>
+            </figure>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mt-5 mb-5 contenedorclientes">
+            <figure class="figure imgclientes estilosclientes">
+              <a href="https://www.instagram.com/psobar/" target="_blank"><img src="./img/cliente5.png" class="figure-img img-fluid rounded" alt="cliente5"></a>
+            </figure>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mt-5 mb-5 contenedorclientes">
+            <figure class="figure imgclientes estilosclientes">
+              <a href="https://www.instagram.com/krameralmacencervecero/" target="_blank"><img src="./img/cliente6.png" class="figure-img img-fluid rounded" alt="cliente6"></a>
+            </figure>
+          </div>
+
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
     <footer>
         <div class="container-fluid bg-black py-4 footerludus">
             <div class="row">
@@ -57,6 +114,12 @@
             </div>
         </div>
     </footer>
+    <!-- Scripts -->
     <script src="./js/bootstrap.js"></script>
+    <!--AOS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
