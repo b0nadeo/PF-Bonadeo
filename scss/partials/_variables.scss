@@ -1,3 +1,44 @@
-$color: #8e2033;
-$fuente: 'Itim', cursive;
-$fuente: 'M PLUS 1p', sans-serif;
+$color1: #8e2033;
+$color2: bisque;
+$color3: #fcd33e;
+$color4: #161f25;
+$color5: #e4a93a;
+$fuente1: 'Itim', cursive;
+$fuente2: 'M PLUS 1p', sans-serif;
+$fuente3: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+$fuente4: Arial, Helvetica, sans-serif;
+$dimicono: 20%;
+$b-radius1: 20px;
+$b-radius2: 50px;
+$f-ancho1: 500;
+$f-tamanio1: 24px;
+$in-bl: inline-block;
+$pad-btn: 12px 36px;
+$trans-btn: 0.5s;
+$td-none: none;
+
+
+@mixin textoludusmain ($color2 , $fuente1 , $fuente2){
+    color: $color2;
+    font-family: $fuente1;
+    font-family: $fuente2;
+}
+
+@mixin estilosfondo ($color1 , $color3 , $color5){
+    background-color: $color1;
+    border-color:  $color3;
+    color: $color5;
+}
+
+@mixin mainludusbotones ($f-ancho1 , $f-tamanio1 , $in-bl , $pad-btn , $trans-btn , $color5 , $color1 , $b-radius2 , $td-none){
+    font-weight: $f-ancho1;
+        font-size: $f-tamanio1;
+        display: $in-bl;
+        padding: $pad-btn;
+        transition: $trans-btn;
+        color: $color5;
+        background: $color1;
+        border-radius: $b-radius2;
+        text-decoration: $td-none;
+}
+
