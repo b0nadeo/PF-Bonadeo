@@ -2,14 +2,14 @@
   background-color: #161f25;
 }
 .navbarludus a, .navbarludus a:hover {
-  color: bisque;
+  color: #ffe4c4;
   font-family: Arial, Helvetica, sans-serif;
 }
 .navbarludus a:hover {
   color: #fcd33e;
 }
 .navbarludus button {
-  background-color: bisque;
+  background-color: #ffe4c4;
   color: #161f25;
 }
 
@@ -62,7 +62,7 @@
 }
 
 .redesludus .textoludusmain {
-  color: bisque;
+  color: #ffe4c4;
   font-family: "Itim", cursive;
   font-family: "M PLUS 1p", sans-serif;
 }
@@ -74,7 +74,7 @@
   width: 20%;
 }
 .textoclientes1 .textoclientes2 {
-  color: bisque;
+  color: #ffe4c4;
   font-family: "Itim", cursive;
   font-family: "M PLUS 1p", sans-serif;
 }
@@ -99,7 +99,7 @@
 }
 
 .footerludus .footertexto {
-  color: bisque;
+  color: #ffe4c4;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 

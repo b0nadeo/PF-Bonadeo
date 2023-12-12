@@ -1,5 +1,5 @@
 $color1: #8e2033;
-$color2: bisque;
+$color2: #ffe4c4;
 $color3: #fcd33e;
 $color4: #161f25;
 $color5: #e4a93a;
@@ -16,6 +16,14 @@ $in-bl: inline-block;
 $pad-btn: 12px 36px;
 $trans-btn: 0.5s;
 $td-none: none;
+
+$paleta: (
+    'color1': #8e2033,
+    'color2': #ffe4c4,
+    'color3': #fcd33e,
+    'color4': #161f25,
+    'color5': #e4a93a,
+);
 
 
 @mixin textoludusmain ($color2 , $fuente1 , $fuente2){

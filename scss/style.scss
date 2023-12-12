@@ -2,21 +2,21 @@
 
 
 .navbarludus{
-    background-color: $color4;
+    background-color: map-get($map: $paleta, $key: 'color4');
 
     a {
-        color: $color2;
+        color: map-get($map: $paleta, $key: 'color2');
         font-family: $fuente4;
     }
 
     a:hover {
         @extend a;
-        color: $color3;
+        color: map-get($map: $paleta, $key: 'color3');
     }
 
     button{
-        background-color: $color2;
-        color: $color4;
+        background-color: map-get($map: $paleta, $key: 'color2');
+        color: map-get($map: $paleta, $key: 'color4');
     }
     
 }
@@ -59,8 +59,8 @@
     height:80px;
     bottom:20px;
     right:40px;
-    background-color: $color1;
-    color: $color5;
+    background-color: map-get($map: $paleta, $key: 'color1');
+    color: map-get($map: $paleta, $key: 'color5');
     border-radius: $b-radius2;
     text-align:center;
     font-size:40px;
@@ -73,7 +73,7 @@
 .redesludus{
 
     .textoludusmain{
-        color: $color2;
+        color: map-get($map: $paleta, $key: 'color2');
         font-family: $fuente1;
         font-family: $fuente2;
     }
@@ -99,7 +99,7 @@
 .textoclientes1{
 
     .textoclientes2{
-        color: $color2;
+        color: map-get($map: $paleta, $key: 'color2');
         font-family: $fuente1;
         font-family: $fuente2;
     }
@@ -131,7 +131,7 @@
 
 .footerludus{
     .footertexto{
-        color: $color2;
+        color: map-get($map: $paleta, $key: 'color2');
         font-family: $fuente3;
     }
     
